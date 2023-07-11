@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Password Generator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+      <div class="container">
+        <div class="container custom-container">
+        <span class="heading">Password Generator</span>
+        <div class="pwTypes">
+        <div class="form-check">
+            <input class="redio form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Generate a funny Password
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input redio" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                Generate a weak Password
+            </label>
+          </div>
+        <div class="form-check">
+            <input class="form-check-input redio" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Generate a strong Password
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input redio" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                Generate a super strong Password
+            </label>
+          </div>
+        </div>
+        <button id="btn" type="button" class="btn btn-outline-light pwGen">Generate Password</button>
+        <div class="mb-3 my-3 mx-3">
+            <textarea class="form-control disp custom-textarea text-center" placeholder="Here is your password..." id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        </div>
+      </div>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+          crossorigin="anonymous"></script>
+  </body>
+</html>

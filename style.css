@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montagu+Slab&display=swap');
+:root{
+    --font1: 'Lobster', cursive;
+    --font2: 'Montagu Slab', serif;
+    --font3: 'Poppins', sans-serif;
+    
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#f6d4be;
+/*   background-image: url("bg\(Password\ generator\)-01.png"); */
+}
+.margin{
+  margin-left: 120px;
+}
+.redio{
+    cursor: pointer;
+}
+/* .inner-container {
+  background: #f69a5b;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+/*     justify-content: center; */
+/*     align-items: center; */
+    /* max-width: 750px; 
+    width: 750px;
+    height: 650px;
+    box-shadow: 11px 11px 25px #ed7f35;
+} */
+.pwTypes{
+    padding: 25px;
+    font-size: 25px;
+    font-family: var(--font2);
+}
+.pwGen{
+    padding: 25px;
+    padding: 25px;
+    font-size: 20px;
+    font-family: var(--font3);
+    margin: 10px;
+}
+.heading{
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+}
+.custom-container {
+    display: block;
+    padding: 25px;
+    /* width: 800px; */
+    border-radius: 30px;
+    background-color: #f69a5b;
+    box-shadow: 11px 11px 25px #ed7f35;
+  }
+.custom-textarea{
+    width: 400px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+textarea.form-control{
+    font-size: 25px;
+    font-family: var(--font2);
+}
+
+@media only screen and (max-width:600px) {
+    .custom-textarea{
+        width: 200px;
+    }
+    textarea.form-control{
+        font-size: 15px;
+    }
+    .pwTypes{
+        font-size: 18px;
+    }
+    .pwGen{
+        font-size: 18px;
+    }
+    .heading{
+        padding: 10px;
+        font-size: 24px;
+    }
+}
