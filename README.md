@@ -1,4 +1,5 @@
 # Password Generator 	:old_key:
+Live demo :point_right: https://85passwordgenerator.mayurigoswami.repl.co/
 
 ## Overview :slightly_smiling_face:
 The Password Generator is a web application designed to generate passwords for various purposes. Whether you need a strong, weak, super strong, or even a funny password, this tool has got you covered. The application is built using HTML, CSS, Bootstrap, and JavaScript, making it a user-friendly and versatile solution.
